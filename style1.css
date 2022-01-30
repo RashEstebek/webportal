@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    box-sizing: border-box;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 10%;
+}
+li, a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card{
+    background-color: #24252A;
+    box-shadow: 0 5px 10px #FF5733;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: sans-serif;
+    background: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.card-text{
+    font-size: 15px;
+    color: black;
+}
+.image{
+    background: url(https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+}
+
+  .about img {
+    height: 550px;
+    margin: 10px 30px;
+  
+  }
+  
+  .about h1 {
+    text-align: center;
+    font-size: 55px;
+    margin-left: 10%;
+    color: white;
+  }
+  
+  .about-text {
+    font-size: 35px;
+    text-align: left;
+    padding: 15px 30px;
+    margin-left: 45%;
+    color: white;
+  }
+  .about{
+      background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80);
+  }
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+section.heding1 {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+section.heding1 a.name {
+    color: inherit;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+section.pustoi{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.heding2{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+section.heding2-1 {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.glav{
+    color: grey;
+    text-decoration: none;
+}
